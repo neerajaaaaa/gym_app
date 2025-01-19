@@ -7,6 +7,7 @@ import java.sql.Timestamp;
 
 @Entity
 @Data
+@Table(name = "gym_frontdesk")
 public class gymFrontdesk {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
